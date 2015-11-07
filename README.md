@@ -48,7 +48,7 @@ Dit stukje HTML:
 
 Dit maakt een webppagina die er ongeveer zo uit ziet:
 
-![demo](http://cl.ly/image/35081n120I42/content#.png)
+![demo](http://cl.ly/image/112F1O2b3t3a)
 
 Hier kun je een [demo](http://codepen.io/anon/pen/gaBMjV?editors=100) vinden om zelf te experimenteren.
 
