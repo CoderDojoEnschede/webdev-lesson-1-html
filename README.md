@@ -1,81 +1,82 @@
-# Build a web page - HTML - Lesson 1
+# Een webpagina maken - HTML - Les 1
 
-## Overview
+## Overzicht
 
-Today we are going to use [HTML](http://en.wikipedia.org/wiki/HTML) to help us tell a story in the web browser that we can show our friends and family.
+Vandaag gaan we [HTML](http://nl.wikipedia.org/wiki/HTML) gebruiken. We gaan in een webbrowser een verhaal vertellen dat we aan onze vrienden en familie kunnen laten zien.
 
 ```html
-<p>HTML is a markup language that we can use to add structure and formatting to our story in web browsers, like Safari or Chrome. When we use HTML to tell a story in the web browser, we are creating a web page.</p>
+<p>HTML een opmaaktaal die we kunnen gebruiken om structuur en vorm te geven aan ons verhaal in een webbrowser. Chrome, Safari, Firefox en Internet Explorer zijn voorbeelden van webbrowsers. Als we HTML gebruiken om een verhaal in de browser te vertellen, maken we een webpagina.</p>
 ```
 
-A web page is made up of many html elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
+Een webpagina bestaat uit een heleboel HTML elementen. Elk element noemen we een "tag". De tekst hierboven is een voorbeeld van hoe je een paragraaf maakt in HTML, door er de tag `<p>` omheen te zetten.
 
-**Description**
+**Omschrijving**
 
-To get started in web development we'll need to learn how to use html, so today we are going to:
+Om te starten met onze webppagina moeten we leren hoe we HTML moeten gebruiken. Vandaag gaan we:
 
-* Start with a basic HTML template
-* Tell our story and use HTML to add structure and formatting
+* Beginnen met een basis HTML voorbeeld
+* Een verhaal vertellen en HTML toepassen om de structuur en vorm toe te voegen
 
 **Demo**
 
-This bit of code:
+Dit stukje HTML:
 
 ```
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My day at work</title>
+    <title>Mijn dag op werk</title>
   </head>
   <body>
-    <h1>My day at work</h1>
-    <p>I had a good day at work. I was able to accomplish my goals and mentor a colleague.</p>
-    <p>My goals included:</p>
+    <h1>Mijn dag op werk</h1>
+    <p>Ik heb op werk een leuke dag vandaag. Ik heb mijn taken afgerond en een collega geholpen.</p>
+    <p>Mijn taken waren:</p>
     <ul>
-      <li>Implement <strong>like</strong> feature</li>
-      <li>Test emplementation in staging</li>
-      <li>Deploy feature to production</li>
-      <li>Blog about building and shipping the <strong>like</strong> feature</li>
+      <li>Een <strong>vind ik leuk</strong> functie toevoegen</li>
+      <li>Deze testen in de testomgeving</li>
+      <li>Daarna deze ook in de productieomgeving uit zetten</li>
+      <li>Een blog schrijven over het maken van de <strong>vind ik leuk</strong> functie</li>
     </ul>
-    <p>When I think about it, today was actually an excellent day!</p>
+    <p>Vandaag was een hele leuke dag!</p>
   </body>
 </html>
 ```
 
-Will produce a web page that looks like this:
+Dit maakt een webppagina die er ongeveer zo uit ziet:
 
 ![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
 
-Check out the [live demo](http://codepen.io/anon/pen/vmibf) to experiment yourself.
+Hier kun je een [demo](http://codepen.io/anon/pen/vmibf) vinden om zelf te experimenteren.
 
-## Prerequisites
+## Wat hebben we nodig
 
-**Tools**
+**Gereedschap**
 
 * [CODEPEN](http://codepen.io/pen/)
 
-## Getting Started
+## Om te beginnen
 
-To get started you should open a blank project on CODEPEN: [http://codepen.io/pen/](http://codepen.io/pen/)
+Om te beginnen starten we een blanco project op CODEPEN:
+[http://codepen.io/pen/](http://codepen.io/pen/)
 
-![CODEPEN empty project](http://cl.ly/image/35081n120I42/content#.png)
+![CODEPEN blanco project](http://cl.ly/image/35081n120I42/content#.png)
 
-For now ignore the JS and CSS areas so uncheck the boxes next to them.
+Voorlopig gebruiken we de JS en CSS onderdelen niet, dus haal de vinkjes daar maar weg.
 
-![Uncheck JS and CSS](http://cl.ly/image/1f3C0E1O1t2Q/content#.png)
+![Geen JS and CSS](http://cl.ly/image/1f3C0E1O1t2Q/content#.png)
 
-Now add the minimal amount of HTML to make the page work. Start by clicking in the HTML area and adding opening and closing `<html>` tags.
+Nu voegen we de minimale HTML toe om een werkende webpagina te maken. Start door in het HTML gebied te klikken en voeg dan de `<html>` tag toe, openen en sluiten.
 
 ```html
 <html>
 </html>
 ```
 
-Your screen should look like this now:
+Je scherm zou er nu zo uit moeten zien:
 
-![CODEPEN after adding html tags](http://cl.ly/image/1y1H1M1n2r1m/content#.png)
+![CODEPEN na toevoegen HTML tags](http://cl.ly/image/1y1H1M1n2r1m/content#.png)
 
-Next add the `<head>` and `<body>` tags. The `<body>` tags tell the web browser that this part of the page should be rendered (displayed). Now our HTML should look like this:
+Daarna voegen we de `<head>` en `<body>` tags toe. De `<body>` tags is het stukje dat de webbrowser verteld wat er weergegeven moet worden. Onze HTML ziet er nu zo uit:
 
 ```html
 <html>
@@ -86,21 +87,21 @@ Next add the `<head>` and `<body>` tags. The `<body>` tags tell the web browser 
 </html>
 ```
 
-## Telling Your Story
+## Je verhaal vertellen
 
-Now you can start telling your story by typing it inside of the `<body>` tags! Here is an example:
+Je kunt nu beginnen met je verhaal te vertellen door binnen de `<body` tag iets neer te zetten. Bijvoorbeeld:
 
 ```html
 <html>
   <head>
   </head>
   <body>
-    Today I took the dogs to the park and we had a great time!
+    Vandaag zijn we met de honden naar het park geweest. We hebben veel plezier gehad!
   </body>
 </html>
 ```
 
-![Basic demo of HTML in action](http://cl.ly/image/2P3l3V1A302i/content#.png)
+![Basis demo van HTML](http://cl.ly/image/2P3l3V1A302i/content#.png)
 
 Now tell more of your story, what else happened?
 
