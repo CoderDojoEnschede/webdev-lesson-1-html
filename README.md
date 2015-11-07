@@ -63,7 +63,7 @@ Hier kun je een [demo](http://codepen.io/anon/pen/gaBMjV?editors=100) vinden om 
 Om te beginnen starten we een blanco project op CODEPEN:
 [http://codepen.io/pen/](http://codepen.io/pen/?editors=100)
 
-![CODEPEN blanco project](http://cl.ly/image/35081n120I42/content#.png)
+![CODEPEN blanco project](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture.PNG)
 
 Nu voegen we de minimale HTML toe om een werkende webpagina te maken. Start door in het HTML gebied te klikken en voeg dan de `<html>` tag toe, openen en sluiten.
 
