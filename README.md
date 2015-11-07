@@ -5,7 +5,11 @@
 Vandaag gaan we [HTML](http://nl.wikipedia.org/wiki/HTML) gebruiken. We gaan in een webbrowser een verhaal vertellen dat we aan onze vrienden en familie kunnen laten zien.
 
 ```html
-<p>HTML een opmaaktaal die we kunnen gebruiken om structuur en vorm te geven aan ons verhaal in een webbrowser. Chrome, Safari, Firefox en Internet Explorer zijn voorbeelden van webbrowsers. Als we HTML gebruiken om een verhaal in de browser te vertellen, maken we een webpagina.</p>
+<p>
+HTML een opmaaktaal die we kunnen gebruiken om structuur en vorm te geven aan ons verhaal in een webbrowser. 
+Chrome, Safari, Firefox en Internet Explorer zijn voorbeelden van webbrowsers. 
+Als we HTML gebruiken om een verhaal in de browser te vertellen, maken we een webpagina.
+</p>
 ```
 
 Een webpagina bestaat uit een heleboel HTML elementen. Elk element noemen we een "tag". De tekst hierboven is een voorbeeld van hoe je een paragraaf maakt in HTML, door er de tag `<p>` omheen te zetten.
