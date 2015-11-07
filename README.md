@@ -46,7 +46,7 @@ Dit maakt een webppagina die er ongeveer zo uit ziet:
 
 ![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
 
-Hier kun je een [demo](http://codepen.io/anon/pen/vmibf) vinden om zelf te experimenteren.
+Hier kun je een [demo](http://codepen.io/anon/pen/gaBMjV?editors=100) vinden om zelf te experimenteren.
 
 ## Wat hebben we nodig
 
@@ -57,13 +57,9 @@ Hier kun je een [demo](http://codepen.io/anon/pen/vmibf) vinden om zelf te exper
 ## Om te beginnen
 
 Om te beginnen starten we een blanco project op CODEPEN:
-[http://codepen.io/pen/](http://codepen.io/pen/)
+[http://codepen.io/pen/](http://codepen.io/pen/?editors=100)
 
 ![CODEPEN blanco project](http://cl.ly/image/35081n120I42/content#.png)
-
-Voorlopig gebruiken we de JS en CSS onderdelen niet, dus haal de vinkjes daar maar weg.
-
-![Geen JS and CSS](http://cl.ly/image/1f3C0E1O1t2Q/content#.png)
 
 Nu voegen we de minimale HTML toe om een werkende webpagina te maken. Start door in het HTML gebied te klikken en voeg dan de `<html>` tag toe, openen en sluiten.
 
