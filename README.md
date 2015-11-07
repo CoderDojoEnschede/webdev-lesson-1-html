@@ -48,7 +48,7 @@ Dit stukje HTML:
 
 Dit maakt een webppagina die er ongeveer zo uit ziet:
 
-![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
+![demo](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-0.PNG)
 
 Hier kun je een [demo](http://codepen.io/anon/pen/gaBMjV?editors=100) vinden om zelf te experimenteren.
 
@@ -63,7 +63,7 @@ Hier kun je een [demo](http://codepen.io/anon/pen/gaBMjV?editors=100) vinden om 
 Om te beginnen starten we een blanco project op CODEPEN:
 [http://codepen.io/pen/](http://codepen.io/pen/?editors=100)
 
-![CODEPEN blanco project](http://cl.ly/image/35081n120I42/content#.png)
+![CODEPEN blanco project](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture.PNG)
 
 Nu voegen we de minimale HTML toe om een werkende webpagina te maken. Start door in het HTML gebied te klikken en voeg dan de `<html>` tag toe, openen en sluiten.
 
@@ -74,7 +74,7 @@ Nu voegen we de minimale HTML toe om een werkende webpagina te maken. Start door
 
 Je scherm zou er nu zo uit moeten zien:
 
-![CODEPEN na toevoegen HTML tags](http://cl.ly/image/1y1H1M1n2r1m/content#.png)
+![CODEPEN na toevoegen HTML tags](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-1.PNG)
 
 Daarna voegen we de `<head>` en `<body>` tags toe. De `<body>` tags is het stukje dat de webbrowser verteld wat er weergegeven moet worden. Onze HTML ziet er nu zo uit:
 
@@ -101,7 +101,7 @@ Je kunt nu beginnen met je verhaal te vertellen door binnen de `<body` tag iets 
 </html>
 ```
 
-![Basis demo van HTML](http://cl.ly/image/2P3l3V1A302i/content#.png)
+![Basis demo van HTML](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-2.PNG)
 
 Nu gaan we meer van ons verhaal vertellen. Wat is er gebeurd?
 
@@ -117,7 +117,7 @@ Nu gaan we meer van ons verhaal vertellen. Wat is er gebeurd?
 </html>
 ```
 
-![Meer van het verhaal](http://cl.ly/image/2w1Q090V1b2t/content#.png)
+![Meer van het verhaal](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-3.PNG)
 
 ## Een paragraaf toevoegen
 
@@ -138,7 +138,7 @@ Voeg de tag `<p>` toe aan elke regel:
 </html>
 ```
 
-![Adding paragraph tags](http://cl.ly/image/1U053V060k0u/content#.png)
+![Paragraaf tags toevoegen](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-4.PNG)
 
 Nu worden de regels wel goed getoond!
 
@@ -161,7 +161,7 @@ h1 staat voor "Heading 1" oftewel "Kop 1".
 </html>
 ```
 
-![Verhaal met titel](http://cl.ly/image/1e352r043A1x/content#.png)
+![Verhaal met titel](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-5.PNG)
 
 ## Tijd voor plaatjes!
 
@@ -191,7 +191,7 @@ En zo voegen we het plaatje toe aan ons verhaal:
 ```
 
 
-![Verhaal met plaatjes](http://cl.ly/image/3w2d1C0P1N3I/content#.png)
+![Verhaal met plaatjes](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-6.PNG)
 
 ## Vet en cursief
 
@@ -212,7 +212,7 @@ Soms willen we een bepaald stukje in ons verhaal er meer uit laten springen. Dit
 </html>
 ```
 
-![Verhaal met vetgedrukt](http://cl.ly/image/1u083V0I0Y3O/content#.png)
+![Verhaal met vetgedrukt](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-7.PNG)
 
 We kunnen ook meer nadruk geven op een deel van ons verhaal door een stuk *tekst cursief te maken*. Hiervoor gebruiken we de tag `<em>`. Dit staat voor emphasis, wat engels is voor "nadruk". Hier is een voorbeeld:
 
@@ -231,7 +231,7 @@ We kunnen ook meer nadruk geven op een deel van ons verhaal door een stuk *tekst
 </html>
 ```
 
-![Verhaal met nadruk](http://cl.ly/image/45033t3W3v3R/content#.png)
+![Verhaal met nadruk](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-8.PNG)
 
 ## Lijsten en opsommingen
 
@@ -260,7 +260,7 @@ Voor het toevoegen van lijsten of opsommingen kun je de `<ul>` of `<ol>` tags ge
 
 De `<ul>` tag verteld de browser dat dit een lijst met dingen is. De `<li>` tags geeft aan dat iets een onderdeel is van die lijst.
 
-![Verhaal met een lijst met honden](http://cl.ly/image/3E2k0C3k3u3N/content#.png)
+![Verhaal met een lijst met honden](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-9.PNG)
 
 Als je de lijst wilt laten tellen met getallen in plaats van de punten, verander je de `<ul>` tag in een `<ol>` tag. De browser geeft dan zelf nummers aan de lijst.
 
@@ -285,7 +285,7 @@ Als je de lijst wilt laten tellen met getallen in plaats van de punten, verander
 </html>
 ```
 
-![Verhaal met genummerde lijst](http://cl.ly/image/3x2t1c1N1v3o/content#.png)
+![Verhaal met genummerde lijst](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-10.PNG)
 
 ## Hyperlinks
 
@@ -367,14 +367,14 @@ Zet het vakje CSS aan in Codepen, en vul dit in het CSS vakje in:
 ```css
 body {
   font-family: Arial;
-  background-color: #eee;
-  color: green;
+  background-color: #ddd;
+  color: gray;
 }
 
 img {
-  border: 2px solid green;
+  border: 5px dashed steelblue;
   padding: 2px;
 }
 ```
 
-![Verhaal met CSS](http://cl.ly/image/002B0l3l090P/content#.png)
+![Verhaal met CSS](https://raw.githubusercontent.com/ylebre/webdev-lesson-1-html/master/screenshots/Capture-11.PNG)
