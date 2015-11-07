@@ -212,7 +212,7 @@ Soms willen we een bepaald stukje in ons verhaal er meer uit laten springen. Dit
 </html>
 ```
 
-![Story with strong](http://cl.ly/image/1u083V0I0Y3O/content#.png)
+![Verhaal met vetgedrukt](http://cl.ly/image/1u083V0I0Y3O/content#.png)
 
 We kunnen ook meer nadruk geven op een deel van ons verhaal door een stuk *tekst cursief te maken*. Hiervoor gebruiken we de tag `<em>`. Dit staat voor emphasis, wat engels is voor "nadruk". Hier is een voorbeeld:
 
@@ -313,11 +313,11 @@ En zo komt dat er dan uit te zien in ons verhaal:
     <p>Nadat de honden met hun vriendjes hebben gespeeld zijn we <em>verder gaan wandelen</em>.</p>
     <img src="http://f.cl.ly/items/0o0T0V0g261C1R0I022z/walking-the-track.jpg">
     <p>In het park hebben we veel andere honden gezien, bijvoorbeeld:</p>
-      <ol>
+      <ul>
         <li><a href="https://nl.wikipedia.org/wiki/Herdershond">Herdershond</a></li>
         <li><a href="https://nl.wikipedia.org/wiki/Labrador_retriever">Labrador</a></li>
         <li><a href="https://nl.wikipedia.org/wiki/Dalmatier">Dalmatiër</a></li>
-      </ol>
+      </ul>
   </body>
 </html>
 ```
