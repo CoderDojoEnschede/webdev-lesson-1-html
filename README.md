@@ -367,12 +367,12 @@ Zet het vakje CSS aan in Codepen, en vul dit in het CSS vakje in:
 ```css
 body {
   font-family: Arial;
-  background-color: #eee;
-  color: green;
+  background-color: #ddd;
+  color: gray;
 }
 
 img {
-  border: 2px solid green;
+  border: 5px dashed steelblue;
   padding: 2px;
 }
 ```
